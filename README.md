@@ -18,7 +18,7 @@
     de cada atleta, e também serão definidos os métdos para executar determinadas ações utilizando os valores contidos
     nas variáveis.
   * Depois, na classe criada, definimos um constructor, onde serão armazenadas as variáveis de instância. O mesmo
-    receberá como parâmetro os seguintes dados dos atletas: (Nome, idade, peso, altura, notas). esse valores serão obtidos
+    receberá como parâmetro os seguintes dados dos atletas: (Nome, idade, peso, altura, notas). esses valores serão obtidos
     através de <b>consts</b>, que estarão fora da classe, atribuindo os dados a mesma. Ex: <b>const atleta1 = new Atletas(dados dos atletas serão adicionados aqui)</b>.
     Tais dados, como citado anteriormente, serão armazenados nas variáveis de instância. Exemplo: <b>this.nome = nome;</b>.
   * depois de atribuirmos os valores às variáveis, declaramos os seguintes métodos: <b>calculaCategoria()</b>, para definir qual categoria
@@ -35,10 +35,10 @@
     </ol>
     
 
-* <b>calculaIMC:</b> Retornará o seguinte calculo: peso / (altura x altura). Essa é a fórmula utilizada para calcular o IMC.
+* <b>calculaIMC:</b> Retornará o seguinte cálculo: <b>peso / (altura x altura)</b>. Essa é a fórmula utilizada para calcular o IMC.
 * <b>calculaMediaValida():</b> Processos efetuados: 
   <ol>
-    <li>Primeiramente, foi declarada uma const denominada NotasOrdenadas, a qual foi utilizada para
+    <li>Primeiramente, foi declarada uma const denominada <b>notasOrdenadas</b>, a qual foi utilizada para
   armazenar as notas em ordem crescente, usando <b>.slice()</b> e logo em seguida <b>.sort()</b> para ordená-las. </li>
     <li>Logo em seguida, declara-se a <b>const notasDoMeio</b>, onde, usando o método slice, exclui-se a maior e
     menor nota</li>
@@ -59,7 +59,7 @@
 
 * Por fim, será declarado o método <b>exibeDados()</b>, onde o mesmo será usado para exibir no console todos métodos que começam com <b>obtem</b> em seu nome. 
  Ex: console.log(`Nome: ${this.obtemNomeAtleta()}`). Para que ele exiba os dados dos atletas no cosnsole de maneira correta, relaciona-se ao método <b>exibeDados</b>
- as consts <b>atleta1</b>, <b>atleta2</b>, <b>atleta3</b> e <b>atleta4</b>, as quais estão fora da classe e que também foram usadas para adicionar os valores na classe <b>Atletas</b>.
+  às consts <b>atleta1</b>, <b>atleta2</b>, <b>atleta3</b> e <b>atleta4</b>, as quais estão fora da classe e que também foram usadas para adicionar os valores na classe <b>Atletas</b>.
  Ex: <b>atleta1.exibeDados()</b>.
     
     
